@@ -1,5 +1,5 @@
 <?php
-    $npm = 23;
+    $npm = 13;
     echo "Aku adalah angka <strong >$npm </strong> <br>";
     echo "Jika aku dikali 5, maka aku sekarang menjadi <strong>". ($npm *= 5) ."</strong> <br>";
     echo "Jika aku dibagi 2, maka aku sekarang menjadi <strong>". ($npm /= 2) ."</strong> <br>";

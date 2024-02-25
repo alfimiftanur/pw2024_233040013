@@ -9,7 +9,7 @@
       display:flex;
     }
 
-    .col{
+    .box{
       width: 100px;
       height: 100px;
       line-height:100px;
@@ -22,15 +22,15 @@
 </head>
 <body>
   <div class="container">
-    <div class="col box-1">1</div>
+    <div class="box">1</div>
     <div class="row">
-      <div class="col box-2">2</div>
-      <div class="col box-2">2</div>
+      <div class="box">2</div>
+      <div class="box">2</div>
   </div>
   <div class="row">
-    <div class="col box-3">3</div>
-    <div class="col box-3">3</div>
-    <div class="col box-3">3</div>
+    <div class="box">3</div>
+    <div class="box">3</div>
+    <div class="box">3</div>
   </div>
 </body>
 </html>
