@@ -5,9 +5,9 @@ function hitungLuasLingkaran($r) {
     $pi = 3.14;
     return $pi * ($r **  2) ;
 }
-$radius = 10;
-echo "Jari-jari  = ". $radius ." cm". "<br/>";
-echo "Total Luas Lingkaran Adalah = ". hitungLuasLingkaran ($radius) . " cm<sup>2</sup>";
+// $radius = 10;
+echo "Jari-jari  =  10  cm <br/>";
+echo "Total Luas Lingkaran Adalah = ". hitungLuasLingkaran (10) . " cm<sup>2</sup>";
 
 echo "<hr>";
 
@@ -16,8 +16,8 @@ function hitungKelilingLingkaran($r){
     $keliling =  2 * 3.14 * $r;
     return $keliling ;
 }
-$jari_jari = 20;
-echo "Jari-jari  = ". $jari_jari ." cm". "<br/>";
-echo "Total Keliling Lingkaran Adalah = ". hitungKelilingLingkaran ($jari_jari) . " cm";
+// $jari_jari = 20;
+echo "Jari-jari  = 20 cm <br/>";
+echo "Total Keliling Lingkaran Adalah = ". hitungKelilingLingkaran (20) . " cm";
 echo "<hr>";
 
