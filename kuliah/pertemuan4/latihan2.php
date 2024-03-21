@@ -17,7 +17,7 @@ function total_volume_dua_kubus($a, $b){
     $volume_b = $b * $b * $b;
     $total_volume = $volume_a + $volume_b;
     return $total_volume;
-    return $a * $a * $a + $b * $b * $b
+    // return $a * $a * $a + $b * $b * $b; ini sama seperti yang di atas 
 }
 
 echo "Total volume kubus A dan Kubus B adalah = ". total_volume_dua_kubus(9, 4);
